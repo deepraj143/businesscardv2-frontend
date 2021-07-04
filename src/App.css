@@ -1,0 +1,33 @@
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+.navbar-container {
+  position: fixed;
+  top: 0px;
+}
+.page-container.blue-page {
+  background-color: #e1ebfc;
+}
+.page-container {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.border-bottom-custom {
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--primary);
+}
+.select-data {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #1bb1dc;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}

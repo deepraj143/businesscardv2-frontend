@@ -1,0 +1,47 @@
+.branch-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 30px;
+  letter-spacing: 2px;
+}
+.noofadd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 82px;
+  width: 100%;
+  background-color: #ddf3fa;
+  margin-top: 10px;
+  color: #4d4949;
+}
+.edit-icons-branch {
+  display: flex;
+}
+.edit-icons-branch svg {
+  font-size: 1.1rem;
+  margin: 20px;
+  color: #4d4949;
+  cursor: pointer;
+}
+.addbranch {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 70px;
+  color: #1bb1dc;
+}
+@media screen and (max-width: 570px) {
+  .edit-icons-branch svg {
+    font-size: 0.9rem;
+    margin: 10px;
+  }
+  .branch-box h5 {
+    font-size: 16px;
+  }
+
+  .branch-box {
+    overflow-x: hidden;
+    padding-left: 10px;
+    letter-spacing: 0px;
+  }
+}

@@ -1,0 +1,237 @@
+.wrapper-class {
+  perspective: 1000px;
+}
+
+.wrapper-class:hover .div-t4 {
+  transform: rotateY(180deg);
+}
+
+/*===stop rotate===*/
+.wrapper-class:hover .div-t4-stop {
+  transform: rotateY(0deg);
+}
+.div-t4-stop {
+  width: 550px;
+  height: 300px;
+  position: relative;
+  border-radius: 15px;
+  margin: -50px 0px -20px -130px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  word-wrap: break-word;
+  background-color: #fff !important;
+}
+.div-t4-stop .line-t4 {
+  margin: 0 30px;
+  width: 50px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  word-wrap: break-word;
+  justify-content: flex-end;
+}
+/*===stop rotate===*/
+.div-t4 {
+  width: 550px;
+  height: 300px;
+  position: relative;
+  border-radius: 15px;
+  margin: -50px 0px -20px -130px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  word-wrap: break-word;
+  background-color: #fff !important;
+}
+
+.front-div-t4 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.back-div-t4 {
+  transform: rotateY(180deg);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  background-color: #fff !important;
+}
+
+/*stop roatet*/
+.back-div-t4-stop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.3);
+  word-wrap: break-word;
+  background-color: #fff !important;
+}
+.back-div-t4-stop .img-conatiner-back-T4 {
+  width: 250px;
+  height: 250px;
+  margin: 25px 0px 0px 25px;
+}
+.back-div-t4-stop .img-conatiner-back-T4 img {
+  height: inherit;
+  width: inherit;
+  object-fit: contain;
+  margin: auto;
+}
+.back-div-t4-stop .strong-T4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  height: 250px;
+  width: 250px;
+  margin: 20px 0px 20px 0px;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding-left: 20px;
+  color: red;
+}
+.front-div-t4,
+.back-div-t4-stop {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: inherit;
+  background-color: #fff;
+}
+/*=====End=========*/
+
+.img-conatiner-T4 {
+  width: 150px;
+  height: 150px;
+}
+.img-conatiner-T4 img {
+  height: inherit;
+  width: inherit;
+  /* object-fit: contain;
+  margin: auto; */
+}
+.img-conatiner-back-T4 {
+  width: 250px;
+  height: 250px;
+  margin: 25px 0px 0px 25px;
+}
+.img-conatiner-back-T4 img {
+  height: inherit;
+  width: inherit;
+  object-fit: contain;
+  margin: auto;
+}
+.back-div-t4 .strong-T4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  height: 250px;
+  width: 250px;
+  margin: 20px 0px 20px 0px;
+  font-weight: 700;
+  word-wrap: break-word;
+  padding-left: 20px;
+  color: red;
+}
+.front-div-t4,
+.back-div-t4 {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: inherit;
+  background-color: #fff;
+}
+
+.first-header-t4 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: red;
+  word-wrap: break-word;
+}
+
+.div-t4 .line-t4 {
+  margin: 0 30px;
+  width: 50px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  word-wrap: break-word;
+  justify-content: flex-end;
+}
+.line-t4 svg {
+  font-size: 2.1rem;
+  border: 5px solid #fff;
+  color: black;
+  border-radius: 50%;
+  padding: 3px;
+  /* margin: 5px 10px 5px 0px; */
+  margin: 0 auto 7px auto;
+}
+.second-header-t4 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  word-wrap: break-word;
+}
+.name-t4 {
+  font-size: 2rem;
+  display: flex;
+  align-self: flex-start;
+  padding-top: 30px;
+  word-wrap: break-word;
+}
+.name-t4 .hr-t4 {
+  width: 80px;
+  background: black;
+  border: none;
+  word-wrap: break-word;
+}
+.address-t4 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+.details-t4 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+  word-wrap: break-word;
+}
+.header-t4 {
+  margin-top: 20px;
+}
+
+/* .header-t4 img {
+  width: 180px;
+  height: 150px;
+  margin-left: -10px;
+  margin-top: -30px;
+} */
+.details-t4 .icons {
+  margin: 6px 0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.hr-t4 {
+  border: none;
+  background-color: red;
+  height: 5px;
+  width: 220px;
+  margin-top: -15px;
+}

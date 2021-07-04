@@ -1,0 +1,15 @@
+.img-Conatiner {
+  height: 200px;
+  width: 200px;
+  /* text-align: center; */
+  margin: 150px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-Conatiner img {
+  width: inherit;
+  height: inherit;
+  object-fit: contain;
+}

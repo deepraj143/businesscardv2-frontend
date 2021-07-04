@@ -1,0 +1,233 @@
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  height: 258px;
+  padding: 25px;
+  margin: 0 60px;
+}
+.slider a {
+  text-decoration: none;
+  color: #4b4c4e;
+}
+.box {
+  background-color: #fff;
+  min-width: 275px !important;
+  height: 155px;
+  width: 275px !important;
+  border-radius: 4px;
+  margin: 0px 30px 0 10px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+}
+.company-box {
+  height: 155px;
+  min-width: 275px !important;
+  border-radius: 4px;
+  margin: 0px 30px 0 10px;
+  box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.company-box::after {
+  content: "";
+  background-image: url("../../asset/bgcompany3.png");
+  opacity: 0.6;
+  background-size: 210px 160px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.company-box svg {
+  font-size: 2.5rem;
+  margin-right: 10px;
+  margin-top: -20px;
+}
+.edit-icon {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  cursor: pointer;
+}
+.edit-icon svg {
+  width: 27px;
+  height: 27px;
+  padding: 7px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 0 5px;
+  background-color: forestgreen;
+}
+
+/*/////////////////model edits/////////////////////*/
+.modal {
+  width: 100%;
+}
+
+.edit-companyname {
+  width: 90%;
+}
+
+.edit-companyname {
+  display: flex;
+  flex-direction: column;
+}
+
+.col-input .input-fleid {
+  padding: 17px 0px !important;
+  margin: 0px 0px 0px -40px !important;
+}
+.edit-company-label-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.edit-company-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.edit-company-label label {
+  font-size: 1rem !important;
+  color: #6c757d;
+}
+.edit-company-img label {
+  margin-left: 14px;
+  color: #6c757d;
+  font-size: 1rem !important;
+  margin-right: 25px;
+}
+
+.mycard-model-body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.model-innerdiv {
+  width: 30%;
+  height: 150px;
+  background-color: #ddf3fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Tempalte-icons {
+  position: absolute;
+  top: -70px;
+  right: -70px;
+  cursor: pointer;
+}
+.Tempalte-icons svg {
+  width: 47px;
+  height: 47px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 0 10px;
+  background-color: forestgreen;
+}
+@media screen and (max-width: 1600px) {
+  .scale-down {
+    width: 25% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .scale-down {
+    width: 35% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .scale-down {
+    width: 40% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .scale-down {
+    width: 45% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .scale-down {
+    width: 55% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .scale-down {
+    width: 76% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 670px) {
+  .scale-down {
+    width: 90% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .scale-down {
+    width: 110% !important;
+    margin-top: -4px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .slider {
+    margin-left: -30px;
+    margin-right: 0px;
+  }
+  .mycard-model-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .model-innerdiv {
+    width: 90%;
+    height: 120px;
+    margin: 5px 0;
+    background-color: #ddf3fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .edit-companyname {
+    display: flex;
+    flex-direction: column;
+  }
+  .edit-company-label-box {
+    display: none;
+  }
+  .col-input .input-fleid {
+    margin: 0px 0px 0px 0px !important;
+  }
+  .input-fleid input {
+    width: 100% !important;
+  }
+  .edit-companyname label {
+    width: auto !important;
+    margin: 0px 10px 0px 15px !important;
+  }
+  .edit-company-label-box input {
+    margin: 0px !important;
+  }
+  .scale-down {
+    width: 110% !important;
+    margin-top: -4px;
+  }
+}
+.scale-down {
+  transform-origin: center;
+  transform: scale(0.5);
+  width: 23%;
+  margin-top: -4px;
+}

@@ -1,0 +1,58 @@
+.col-input1 .input-fleid {
+  padding: 17px 0px !important;
+  margin: 0px 20px 0px 0px !important;
+}
+.col-input1 .input-fleid input {
+  width: 100% !important;
+}
+.noofrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: #ddf3fa;
+  margin-top: 10px;
+  color: #4d4949;
+}
+.edit-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  color: #4d4949;
+}
+
+.edit-icons svg {
+  font-size: 1.1rem;
+  margin: 20px;
+  color: #4d4949;
+}
+.edit-companyname {
+  overflow-y: auto;
+  max-height: 450px;
+  margin: auto;
+}
+.edit-companyname label {
+  width: 20%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+}
+.addemployeebox {
+  display: flex;
+  justify-content: flex-end;
+  color: #1bb1dc;
+}
+.addemployeebox svg {
+  color: #1bb1dc !important;
+}
+@media screen and (max-width: 400px) {
+  .col-input1 label {
+    display: none;
+  }
+  #branch_id {
+    margin: 0px !important;
+  }
+}

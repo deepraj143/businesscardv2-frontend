@@ -1,0 +1,123 @@
+:root {
+  --blue: #1bb1dc;
+}
+#header {
+  width: 100%;
+  margin: auto;
+  /* height: 75vh; */
+  /* margin-top: 70px; */
+}
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#header .brand-name {
+  color: var(--blue) !important;
+}
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+#header .btn-get-started {
+  font-family: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 25px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: var(--blue) !important;
+  border: 2px solid #1bb1dc !important;
+  text-decoration: none;
+}
+#header .btn-get-started:hover {
+  background: var(--blue) !important;
+  color: #fff !important;
+  transition: all 0.7s ease;
+}
+#header-img {
+  text-align: right;
+}
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cols-2 {
+    height: 300px !important;
+    display: flex;
+    justify-content: center;
+    margin: 0px !important;
+  }
+  .cols-2 img {
+    width: 70%;
+    height: 350px;
+  }
+  .cols-1 h1 {
+    font-size: 38px !important;
+  }
+  .cols-1 h2 {
+    font-size: 18px !important;
+    margin: 0px !important;
+  }
+  .cols-1 .btn-get-started {
+    font-size: 12px !important;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cols-2 img {
+    width: 80%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .cols-2 img {
+    width: 100%;
+    height: 300px;
+  }
+  .cols-1 h1 {
+    font-size: 30px !important;
+  }
+  .cols-1 h2 {
+    font-size: 15px !important;
+    margin: 0px !important;
+  }
+  .cols-1 .btn-get-started {
+    font-size: 10px !important;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px !important;
+  }
+}
+@media screen and (max-width: 460px) {
+  .cols-2 img {
+    width: 100%;
+    height: 300px;
+  }
+  .cols-1 h1 {
+    font-size: 30px !important;
+  }
+  .cols-1 h2 {
+    font-size: 15px !important;
+    margin: 0px !important;
+  }
+  .cols-1 .btn-get-started {
+    font-size: 10px !important;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 20px !important;
+  }
+}

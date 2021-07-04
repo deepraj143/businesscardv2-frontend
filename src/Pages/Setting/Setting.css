@@ -1,0 +1,90 @@
+.container-box {
+  height: 430px;
+  width: 60%;
+  background-color: #fff;
+  margin: 100px auto 0 auto !important;
+  padding: 30px;
+  border-radius: 4px;
+}
+.container-header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.container-header p {
+  font-size: 22px;
+  margin-left: 30px;
+  color: #1bb1dc;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.container-header svg {
+  color: #fff;
+  font-size: 2rem;
+}
+.container-header div {
+  width: 40px;
+  height: 40px;
+  background-color: #1bb1dc;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from div {
+  height: 50px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.from label {
+  width: 25%;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #6c757d;
+}
+.from input {
+  width: 70%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #1bb1dc;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.container-footer button {
+  width: 100px !important;
+}
+
+@media screen and (max-width: 960px) {
+  .from label {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 760px) {
+  .from label {
+    width: 17%;
+    font-size: 0.9rem;
+  }
+  .container-box {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .from label {
+    display: none;
+  }
+  .from input {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #1bb1dc;
+  }
+  .container-box {
+    padding: 20px 15px;
+    width: 90%;
+  }
+}

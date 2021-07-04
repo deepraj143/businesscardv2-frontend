@@ -1,0 +1,124 @@
+.data-col h5 {
+  display: inline-block;
+  margin-left: 30px;
+  text-overflow: clip;
+}
+.select-data {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #1bb1dc;
+  border-radius: 6px;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+.select-data svg {
+  margin-top: -5px;
+}
+.select-anyone {
+  margin-top: 20px;
+  padding-left: 70px;
+}
+.from-check label {
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin-left: 15px;
+  padding: 0px;
+}
+.radio-check-input {
+  background-color: #fff;
+}
+.radio-check-input:checked[type="radio"] {
+  background-color: #1bb1dc !important;
+}
+.radio-container {
+  overflow: auto;
+  max-height: 200px !important;
+}
+
+.template-container {
+  transform: scale(0.5) !important;
+  height: 200px;
+  width: 300px;
+}
+.from-check-template {
+  width: 100%;
+  height: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.from-check-template input {
+  width: 50px;
+  height: 25px;
+}
+.from-check-template label {
+  font-size: 1.5rem !important;
+  width: 200px;
+}
+.filter-btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-btn button {
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-right: 10px;
+}
+.temp-overflow-inner {
+  display: flex;
+  overflow-x: auto;
+  height: 250px;
+  /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width: 1400px) {
+  .filter-btn button {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .filter-btn button {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .filter-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .filter-btn button {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .data-col h5 {
+    margin-left: 5px;
+    font-size: 1rem;
+  }
+  .select-anyone {
+    padding-left: 20px;
+  }
+  .select-data {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #1bb1dc;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  .radio-container {
+    margin-left: 25px;
+  }
+}

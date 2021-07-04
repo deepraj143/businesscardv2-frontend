@@ -1,0 +1,78 @@
+.formdiv {
+  border: 0.5px solid black;
+  padding: 30px 20px;
+  border-radius: 4px;
+}
+.formdiv h4 {
+  text-align: center;
+}
+/* .contact_div {
+  height: 100vh;
+} */
+.formdiv p {
+  padding: 0 0 0 50px;
+  margin: 0;
+}
+.formdiv p span {
+  color: #1bb1dc;
+}
+.formdiv strong {
+  text-align: none !important;
+}
+.contact-header h4 {
+  padding-left: 50px;
+  text-align: start !important;
+}
+@media screen and (max-width: 400px) {
+  .contact_div {
+    margin-top: 10px !important;
+  }
+  .contact_div .input-fleid {
+    margin: 0px !important;
+    padding-top: 10px !important;
+  }
+  .contact_div p {
+    font-size: 12px !important;
+  }
+  .contact-header h4 {
+    padding-left: 0px;
+  }
+  .contact-header p {
+    padding-left: 0px;
+  }
+  .iframe-conatiner {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}
+.iframe-conatiner {
+  margin-top: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1000px) {
+  .iframe-conatiner {
+    margin-top: 55px;
+    margin-left: 100px;
+  }
+  iframe {
+    height: 460px !important;
+    width: 400px !important;
+  }
+}
+@media screen and (max-width: 980px) {
+  iframe {
+    height: 450px !important;
+    width: 350px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  iframe {
+    height: 300px !important;
+    width: 350px !important;
+    margin: 10px auto 40px auto;
+  }
+}

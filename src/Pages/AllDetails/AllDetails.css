@@ -1,0 +1,18 @@
+.alldetails1 {
+  width: 70%;
+  margin: auto;
+  height: auto;
+}
+.alldetails2 {
+  width: 90%;
+  margin: auto;
+  height: auto;
+}
+@media screen and (max-width: 500px) {
+  .alldetails1 {
+    width: 100%;
+  }
+  .form {
+    padding: 0px 35px;
+  }
+}

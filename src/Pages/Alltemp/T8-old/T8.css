@@ -1,0 +1,57 @@
+.div-t3 {
+  height: 250px;
+  width: 420px;
+  background: url("../../../asset/bg2.jpg");
+  /* transform: scale(0.6); */
+  display: flex;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  margin-left: -70px;
+  margin-top: -30px;
+}
+.first-header-t3 {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.div-t3 .line-t3 {
+  margin: 10px 20px;
+  border: 2px solid;
+  width: 5px;
+  background-color: black;
+}
+.second-header-t3 {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 40px;
+}
+.name-t3 {
+  font-size: 1.5rem;
+  display: flex;
+  align-self: flex-start;
+  padding-top: 10px;
+}
+.name-t3 .hr-t3 {
+  width: 80px;
+  background: black;
+  border: none;
+  height: 4px;
+}
+.address-t3 {
+  font-size: 0.7rem;
+}
+.details-t3 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+}

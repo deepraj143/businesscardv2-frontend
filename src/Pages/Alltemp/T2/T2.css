@@ -1,0 +1,147 @@
+.wrapper-class {
+  perspective: 1000px;
+}
+
+.wrapper-class:hover .div-t2 {
+  transform: rotateY(180deg);
+}
+
+.div-t2 {
+  width: 550px;
+  height: 300px;
+  background: #101820ff;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: relative;
+  margin: -50px 0px -20px -130px;
+  box-shadow: 0 15px 60px rgba(0, 0, 0, 0.7);
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.T2front-div {
+  display: flex;
+}
+
+.T2back-div {
+  transform: rotateY(180deg);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+}
+/* .T2back-div img {
+  height: 377px;
+  vertical-align: middle;
+  border-style: none;
+  width: 336px;
+  margin-top: -20px;
+  margin-left: -20px;
+} */
+.T2back-div strong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  color: #fee715ff;
+  margin-top: 60px;
+}
+
+.T2back-div div {
+  display: block;
+  margin: 5px auto;
+  align-items: center;
+  height: 4px;
+  background-color: #fee715ff;
+}
+.T2back-div .T2-1 {
+  width: 70%;
+}
+.T2back-div .T2-2 {
+  width: 55%;
+}
+.T2back-div .T2-3 {
+  width: 40%;
+}
+.T2back-div .T2-4 {
+  width: 25%;
+}
+.T2back-div .T2-5 {
+  width: 10%;
+}
+
+.T2front-div,
+.T2back-div {
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: inherit;
+}
+
+.first-header-t2 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #fee715ff;
+  padding-left: 35px;
+}
+
+.header-t2 h1 {
+  font-size: 3rem;
+}
+
+.div-t2 .line-t2 {
+  margin: 27px 30px;
+  height: 239px;
+  border: 2px solid #fee715ff;
+  background-color: #fee715ff;
+}
+.second-header-t2 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fee715ff;
+}
+.name-t2 {
+  font-size: 1.7rem;
+  display: flex;
+  align-self: flex-start;
+  padding-top: 30px;
+  color: #fee715ff;
+}
+.name-t2 .hr-t2 {
+  width: 80px;
+  background: #fee715ff;
+  height: 4px;
+  border: none;
+  margin-top: 23px;
+  margin-left: 5px;
+}
+.dep-t2t {
+  margin-top: -40px;
+}
+.address-t2 {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.details-t2 {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  font-size: 0.8rem;
+  color: #fee715ff;
+  font-weight: 700;
+}
+.details-t2 .icons {
+  margin: 5px 0;
+}
+.details-t2 svg {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
