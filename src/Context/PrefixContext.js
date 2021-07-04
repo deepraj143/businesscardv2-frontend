@@ -5,7 +5,7 @@ export const PrefixContext=createContext();
 
 const Prefixcontext = ({children}) => {
     
-    const prefixurl="https://business-card-generator.netlify.app"
+    const prefixurl="http://localhost:5000"
     
     return (
         <PrefixContext.Provider value={{prefixurl}}>
