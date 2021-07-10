@@ -80,6 +80,7 @@ const Addpersondetails = (props) => {
        axios.post(prefixurl+"/Addemployee",expressdata)
        .then(response => {
             if(response.status===200){
+                console.log(response.data)
                 setvalidation({
                     status:response.data.status,
                     color:"success",
@@ -94,10 +95,11 @@ const Addpersondetails = (props) => {
             }
        })
        .catch(error => {
+           console.log(error)
         const errorDetails=[];
         if (error.response !== undefined && error.response.data!== undefined && error.response.data.message!== undefined){ 
             error.response.data.message.forEach((e,index)=>{
-                // errorDetails[e.param]=e.msg;
+                errorDetails[e.param]=e.msg;
                       
                       
         })
