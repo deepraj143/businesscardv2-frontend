@@ -92,7 +92,7 @@ const Login = () => {
                     <div className="col-md-5 col-10 mx-auto mt-5 ">
                         <div className="formdiv">
                             <h4>Login</h4>
-                            <Form submitHandler={submitUser} validationMessage={validation.status} validationVariant={validation.color} submitBtn="Register">
+                            <Form submitHandler={submitUser} validationMessage={validation.status} validationVariant={validation.color} submitBtn="Submit">
                                 <Input icon={<HiOutlineMail/>} HandleChange={HandleChange} ErrorMessage={validation.message.email} type="email" name="email" placeholder="Email" />
                                 <Input icon={<RiLockPasswordFill/>} HandleChange={HandleChange} ErrorMessage={validation.message.password} type="password" name="password" placeholder="Password" />
                             </Form>
