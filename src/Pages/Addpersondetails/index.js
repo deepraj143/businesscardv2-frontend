@@ -99,7 +99,7 @@ const Addpersondetails = (props) => {
         const errorDetails=[];
         if (error.response !== undefined && error.response.data!== undefined && error.response.data.message!== undefined){ 
             error.response.data.message.forEach((e,index)=>{
-                errorDetails[e.param]=e.msg;
+                // errorDetails[e.param]=e.msg;
                       
                       
         })
