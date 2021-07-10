@@ -100,8 +100,6 @@ const Addpersondetails = (props) => {
         if (error.response !== undefined && error.response.data!== undefined && error.response.data.message!== undefined){ 
             error.response.data.message.forEach((e,index)=>{
                 // errorDetails[e.param]=e.msg;
-                      
-                      
         })
         setvalidation({
             status:error.response.data.status,
