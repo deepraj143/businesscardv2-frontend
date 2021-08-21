@@ -15,8 +15,8 @@ const Authcontext = ({children}) => {
     }
     
     const isAuthenticated=()=>{
-        axios.post("https://businesscard-generator.herokuapp.com/verify",{withCredentials: true})
-        // axios.post("http://localhost:5000/verify",{withCredentials: true})
+        // axios.post("https://businesscard-generator.herokuapp.com/verify",{withCredentials: true})
+        axios.post("http://localhost:5000/verify",{withCredentials: true})
         .then(response => {
             if(response.status === 200){
                 console.log('User Verified')
